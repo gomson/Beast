@@ -16,6 +16,7 @@ add_executable (core-tests
     buffers_adapter.cpp
     clamp.cpp
     consuming_buffers.cpp
+    coro_bug.cpp
     dynabuf_readstream.cpp
     error.cpp
     handler_alloc.cpp

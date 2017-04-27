@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/examples/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/examples/ssl/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/test/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/test/core/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/test/http/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/test/websocket/CMakeFiles/generate.stamp is up-to-date.
+  CMake does not need to re-run because C:/Users/vinnie/src/Beast/bin64/test/zlib/CMakeFiles/generate.stamp is up-to-date.

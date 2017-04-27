@@ -23,6 +23,7 @@ unit-test core-tests :
     core/buffers_adapter.cpp
     core/clamp.cpp
     core/consuming_buffers.cpp
+    core/coro_bug.cpp
     core/dynabuf_readstream.cpp
     core/error.cpp
     core/handler_alloc.cpp

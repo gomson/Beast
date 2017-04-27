@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/vinnie/src/Beast/bin/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/vinnie/src/Beast/CMakeLists.txt'
+    is newer than 'C:/Users/vinnie/src/Beast/bin/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Boost version: 1.64.0
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/vinnie/src/Beast/bin
