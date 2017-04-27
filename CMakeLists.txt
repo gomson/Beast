@@ -166,15 +166,4 @@ file(GLOB_RECURSE EXTRAS_INCLUDES
     ${PROJECT_SOURCE_DIR}/extras/beast/*.ipp
 )
 
-add_subdirectory (examples)
-if (NOT OPENSSL_FOUND)
-    message("OpenSSL not found. Not building examples/ssl")
-else()
-    add_subdirectory (examples/ssl)
-endif()
-
-add_subdirectory (test)
-add_subdirectory (test/core)
-add_subdirectory (test/http)
 add_subdirectory (test/websocket)
-add_subdirectory (test/zlib)

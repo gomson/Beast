@@ -1786,15 +1786,16 @@ public:
         auto const any = endpoint_type{
             address_type::from_string("127.0.0.1"), 0};
 
+        permessage_deflate pmd;
+        pmd.client_enable = false;
+        pmd.server_enable = false;
+
+#if 0
         testOptions();
         testAccept();
         testHandshake();
         testBadHandshakes();
         testBadResponses();
-
-        permessage_deflate pmd;
-        pmd.client_enable = false;
-        pmd.server_enable = false;
 
         {
             error_code ec;
@@ -1820,6 +1821,7 @@ public:
             auto const ep = server.local_endpoint();
             testAsyncWriteFrame(ep);
         }
+#endif
 
         auto const doClientTests =
             [this, any](permessage_deflate const& pmd)
@@ -1856,21 +1858,27 @@ public:
                 }
             };
 
+#if 0
         pmd.client_enable = false;
         pmd.server_enable = false;
         doClientTests(pmd);
+#endif
 
+#if 1
         pmd.client_enable = true;
         pmd.server_enable = true;
         pmd.client_max_window_bits = 10;
         pmd.client_no_context_takeover = false;
         doClientTests(pmd);
+#endif
 
+#if 0
         pmd.client_enable = true;
         pmd.server_enable = true;
         pmd.client_max_window_bits = 10;
         pmd.client_no_context_takeover = true;
         doClientTests(pmd);
+#endif
     }
 };
 
